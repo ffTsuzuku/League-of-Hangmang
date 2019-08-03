@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,kCAAkC;EACpD,mBAAmB,EAAE,YAAY;EACjC,eAAe,EAAE,KAAK;EACtB,MAAM,EAAE,IAAI;CASf;;AAbD,AAMI,UANM,CAMN,OAAO,CAAC;EACJ,SAAS,EAAE,MAAM;CACpB;;AARL,AAUI,UAVM,CAUN,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "gameboard.scss"
+    ],
+    "names": [],
+    "file": "gameboard.css"
+}

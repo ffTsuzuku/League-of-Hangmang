@@ -1,0 +1,15 @@
+.index_img {
+  display: none;
+}
+
+@media only screen and (min-width: 850px) {
+  .index_img {
+    display: block;
+    width: 75%;
+    height: 100vh;
+    background-image: url("../../images/index_img.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=indexImage.css.map */

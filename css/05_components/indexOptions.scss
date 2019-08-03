@@ -1,0 +1,16 @@
+.index-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $base-color;
+    width: 25%;
+    height: 100vh;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .index-options {
+        width: 100vw;
+    }
+}

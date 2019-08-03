@@ -1,0 +1,63 @@
+.gameboard {
+    background-image: url('../../images/background.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+
+    .health {
+        display: flex;
+        font-size: 1.5rem;
+        align-items: center;
+        
+
+        .hearts {
+            display: flex;
+            flex-wrap: wrap;
+    
+            .heart {
+                margin: $margin1;
+                background: url('../../images/heart.png');
+                background-size: cover;
+                background-position: center;
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+
+    .phrase {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .letter {
+            margin: 0 $margin3;
+            color: #707070;
+            box-shadow: $shadow-bottom;
+        }
+
+        .word {
+            display: flex;
+            flex-wrap: wrap;
+            margin: $margin3 0px;
+        }
+    }
+
+    .playerInput {
+        width: 50%;
+    }
+
+    @media only screen and (min-width: 850px) {
+        .phrase {
+            flex-direction: row;
+            width: 85%;
+
+            .word {
+                margin: 0px $margin5;
+            }
+
+        }
+    }
+}

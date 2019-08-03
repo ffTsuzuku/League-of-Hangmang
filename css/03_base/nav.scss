@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #252027;
+    box-sizing:border-box;
+    padding: 20px;
+
+    a {
+        color: $gold-color;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-button {
+        color: $gold-color;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
+    .logo-sm {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    nav {
+
+        flex-direction: row;
+
+        .nav-button {
+            display: none;
+        }
+
+        .logo-sm {
+            display: block;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 30px;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>League of Hangman</title>
+
+    <script src="js/nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="d-flex flex-column h-100vh">
+        <nav class="main-nav">
+            <img src="images/icon.png" class="logo-sm">
+            <i class="material-icons nav-button" 
+                onclick="toggleFlex(document.getElementById('nav-links'));">menu</i>
+
+            <div id="nav-links" class="nav-links">
+                <a>Play</a>
+                <a>About</a>
+                <a>GitHub</a>
+            </div>
+        </nav>
+
+        <div class="game-modes flex-grow">
+            <a class="pill-button-gold shadow ml-3 mb-3" href="https://google.com">
+                <h3 class="text-white">Single Player</h1>
+            </a>
+
+            <a class="pill-button-gold shadow ml-3 mb-3" href="https://google.com">
+                <h3 class="text-white">Multi Player</h1>
+            </a>
+
+            <a class="pill-button-gold shadow ml-3 mb-5" href="https://google.com">
+                <h3 class="text-white">Join</h1>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #252027;
+    box-sizing:border-box;
+    padding: 20px;
+    box-shadow: $shadow;
+
+    a {
+        color: $gold-color;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+    
+    a:hover {
+        color: white;
+    }
+
+    .nav-button {
+        color: $gold-color;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
+    .logo-sm {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 850px) {
+    .main-nav {
+
+        flex-direction: row;
+
+        .nav-button {
+            display: none;
+        }
+
+        .logo-sm {
+            display: block;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: row;
+        }
+
+        a {
+            margin: 0 1rem;
+        }
+    }
+}

@@ -36,6 +36,8 @@
             margin: 0 $margin3;
             color: #707070;
             box-shadow: $shadow-bottom;
+            border-bottom: 2px solid;
+            padding: 20px;
         }
 
         .word {
@@ -43,10 +45,19 @@
             flex-wrap: wrap;
             margin: $margin3 0px;
         }
+
+        .character {
+            margin: 0px;
+            display: none;
+        }
     }
 
     .playerInput {
         width: 50%;
+    }
+
+    .guesses {
+        display: flex;
     }
 
     @media only screen and (min-width: 850px) {

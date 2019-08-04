@@ -605,6 +605,8 @@ input, textarea {
   color: #707070;
   -webkit-box-shadow: 0 0.5rem 2rem -2rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 0.5rem 2rem -2rem rgba(0, 0, 0, 0.15);
+  border-bottom: 2px solid;
+  padding: 20px;
 }
 
 .gameboard .phrase .word {
@@ -616,8 +618,19 @@ input, textarea {
   margin: 1rem 0px;
 }
 
+.gameboard .phrase .character {
+  margin: 0px;
+  display: none;
+}
+
 .gameboard .playerInput {
   width: 50%;
+}
+
+.gameboard .guesses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media only screen and (min-width: 850px) {
